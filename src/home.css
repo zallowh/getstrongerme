@@ -1,0 +1,13 @@
+
+@keyframes blink {
+    0% { opacity: 4; }
+    50% { opacity: 0; }
+    100% { opacity: 2; }
+  }
+  
+  .blink-text {
+    animation: blink 1s infinite;
+  }
+  
+  
+  
