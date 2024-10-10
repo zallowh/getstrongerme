@@ -43,20 +43,20 @@ const Home = () => {
     Transform Your Business with Our All-Inclusive Digital Solutions!
   </h1>
   <p className='text-gray-300 text-2xl font-sm p-5'>
-    Welcome to StrongerMe! We empower businesses to thrive in the digital world by providing expert solutions that yield measurable results. In a rapidly changing digital landscape, simply being online is not enough—success requires a strategic approach, consistency, and the right tools to unlock your business’s full potential. That’s where we come in.
-    In this fast-paced era, an impactful online presence is essential for growth. At StrongerMe, we’re committed to helping every business, from startups to established brands, grow and succeed through tailored digital strategies that work.
+    Welcome to StrongerMe! We empower businesses to thrive in the digital world by providing expert solutions that yield measurable results. In a rapidly changing digital landscape, simply having a website or social media presence is not enough. Success requires a carefully crafted strategy, consistent execution, and the right tools to unlock your business's full potential. Our focus is on helping you grow with our comprehensive services tailored to your unique needs. We pride ourselves on being one of the <strong>leading digital marketing agencies in South Africa</strong>, and we are here to assist you in building a powerful <strong>online presence</strong> that stands out in the competitive market.
   </p>
 
   <p className='text-gray-300 text-2xl font-sm px-5'>
-    We offer specialized <strong>digital solutions</strong> designed to strengthen your <strong>online presence</strong> and drive sustainable <strong>business growth</strong>. Our services are specifically crafted to help businesses reach their target audience and grow their customer base.
+    In this fast-paced era, effective <strong>digital marketing</strong> is essential for the growth and sustainability of any business. Whether you're targeting local customers through <strong>digital marketing in Johannesburg</strong> or expanding your reach across the country with <strong>digital marketing in South Africa</strong>, our team provides customized solutions to help you meet your goals. We understand the importance of reaching the right audience at the right time, which is why we specialize in <strong>advertising online</strong> through various platforms including <strong>social media advertising</strong>, search engines, and email campaigns. With StrongerMe, your business will thrive in an increasingly digital world.
   </p>
 
   <p className='text-gray-300 text-xl mt-4 px-5'>
     <strong>Our mission is to help your business connect with the right audience, increase sales, and maintain a competitive edge.</strong>
-    From website development to SEO, social media advertising, and email marketing, we’ll help your brand create meaningful and lasting impressions with your audience.
+    We offer a wide range of services, from <strong>brand advertising</strong> and search engine optimization (SEO), to web development, content creation, and <strong>social media marketing in South Africa</strong>. By leveraging data-driven insights and industry trends, we ensure that your business stays ahead of competitors while delivering personalized, impactful campaigns that resonate with your customers. Whether it’s building brand awareness or driving sales, we’ve got the expertise to help your business succeed.
   </p>
+
   <p className='text-xl text-gray-200 mt-6 italic px-5 py-10'>
-    Just as you’ve easily discovered us, your customers can discover you. Let us help your business achieve visibility and growth in the digital world.
+    Just as you’ve easily discovered us, your customers can discover you. Let us help your business achieve visibility and growth in the digital world with our strategic, data-driven approach to <strong>digital marketing</strong>. Success is just one click away.
   </p>
 </div>
 
@@ -111,7 +111,7 @@ const Home = () => {
       </div>
 
         {/* Section 3: Google Ads and SEO */}
-      <div className='px-5 py-20'>
+      <div className='px-5 py-10'>
           <div className='p-0'>
             <h2 className='text-3xl font-extrabold text-blue-300 '>
               Drive More Traffic with Google Ads & Search Engine Optimization (SEO)
@@ -159,7 +159,7 @@ const Home = () => {
       </div>
 
         {/* Section 4: Facebook & Instagram Ads */}
-      <div className='px-5 py-20'>
+      <div className='px-5 py-10'>
           <div className='p-0'>
             <h2 className='text-3xl font-extrabold text-blue-300'>
               Expand Your Reach with Facebook & Instagram Ads
@@ -208,7 +208,7 @@ const Home = () => {
         </div>
 
         {/* Section 5: Email Marketing */}
-      <div className='px-5 py-20'>
+      <div className='px-5 py-10'>
           <div className='p-0'>
             <h2 className='text-3xl font-extrabold text-blue-300 '>
               Boost Engagement with Email Marketing
@@ -272,7 +272,7 @@ const Home = () => {
           </div>
            
             {/* Section 7: End Section */}
-    <div className='px-5 py-20'>
+    <div className='px-5 py-10'>
       <h2 className='text-3xl font-extrabold text-blue-300 mb-6'>
         Don't Let Lost Sales Be Your Story
       </h2>
