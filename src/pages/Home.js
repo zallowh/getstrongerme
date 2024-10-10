@@ -1,6 +1,7 @@
 import React from 'react';
 import '../home.css';
 import { FaInstagram, FaFacebook, FaTwitter, FaWhatsapp, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { IoLocationSharp } from "react-icons/io5";
 import Emailmarketing from '../assets/emailmarketing.png';
 import Googleads from '../assets/googleads.png';
 import Webdev from '../assets/webdev.jpeg';
@@ -48,10 +49,6 @@ const Home = () => {
 
   <p className='text-gray-300 text-2xl font-sm px-5'>
     We offer specialized <strong>digital solutions</strong> designed to strengthen your <strong>online presence</strong> and drive sustainable <strong>business growth</strong>. Our services are specifically crafted to help businesses reach their target audience and grow their customer base.
-  </p>
-
-  <p className='text-gray-300 text-xl mt-4 px-5'>
-    Our <strong>customized digital services</strong> are tailored for small businesses looking to scale, while our <strong>comprehensive strategies</strong> ensure long-term growth and sustainability in an ever-competitive market.
   </p>
 
   <p className='text-gray-300 text-xl mt-4 px-5'>
@@ -108,7 +105,7 @@ const Home = () => {
             </ul>
           </div>
 
-        <p className='text-xl text-gray-200 italic px-5 py-0'>
+        <p className='text-xl text-gray-200 italic p-5'>
           <strong>Stats:</strong> Did you know that 94% of first impressions of your business website are design-related? Moreover, 88% of online consumers are less likely to return to a site after a bad experience.
         </p> 
       </div>
@@ -156,7 +153,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <p className='text-xl text-gray-200 italic px-5 py-0'>
+          <p className='text-xl text-gray-200 italic p-5'>
             <strong>Stats:</strong> Companies using SEO experience an average increase in lead generation by 14.6%. Meanwhile, businesses earn R2 for every R1 spent on Google Ads, making it one of the most cost-effective marketing strategies.
           </p>
       </div>
@@ -205,7 +202,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <p className='text-xl text-gray-200 italic px-5 py-0'>
+          <p className='text-xl text-gray-200 italic p-5'>
             <strong>Stats:</strong> On average, Facebook Ads convert at 9.21%, making it one of the highest-converting platforms. Additionally, 68% of users say they have purchased a product directly from seeing an Instagram ad.
           </p>
         </div>
@@ -253,7 +250,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <p className='text-xl text-gray-200 italic px-5 py-0'>
+          <p className='text-xl text-gray-200 italic p-5'>
             <strong>Stats:</strong> Email marketing delivers an average ROI of R4 for every R1 spent. Moreover, personalized email campaigns have been shown to increase click-through rates by 14% and conversion rates by 10%.
           </p>
       </div>
@@ -285,6 +282,12 @@ const Home = () => {
 
       </p>
     </div>
+
+    <div className="items-center py-5 px-0 m-0">
+      <IoLocationSharp style={{ color: '#ea4335', fontSize: '2vw', gap:0 }} />
+      <p className="text-xl text-gray-200 italic pl-3">Johannesburg, South Africa</p>
+    </div>
+
   </div> 
  </div>
 )
