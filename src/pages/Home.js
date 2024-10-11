@@ -283,9 +283,9 @@ const Home = () => {
       </p>
     </div>
 
-    <div className="items-center py-5 px-0 m-0">
-      <IoLocationSharp style={{ color: '#ea4335', fontSize: '2vw', gap:0 }} />
-      <p className="text-xl text-gray-200 italic pl-3">Johannesburg, South Africa</p>
+    <div className="gap-0 items-center py-15 px-0 m-0">
+      <IoLocationSharp style={{ color: '#ea4335', fontSize: '30px', gap:0 }} />
+      <p className="text-xl text-gray-200 italic">Johannesburg, South Africa</p>
     </div>
 
   </div> 
