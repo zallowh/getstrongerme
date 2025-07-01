@@ -11,13 +11,24 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-
-
+import { 
+  Globe, 
+  Shield, 
+  Mail, 
+  TrendingUp, 
+  Check, 
+  Star,
+  Phone,
+  Users
+} from 'lucide-react';
 
 const plans = [
   {
     tier: "Bronze",
     name: "Business Profile + Basic Website",
+    icon: Globe,
+    color: "text-amber-600",
+    bgColor: "bg-amber-50",
     features: [
       "Mobile-friendly 1-3 page website",
       "Google Maps listing support",
@@ -32,6 +43,9 @@ const plans = [
   {
     tier: "Silver",
     name: "Profile + Basic Maintenance Plan",
+    icon: Shield,
+    color: "text-gray-600",
+    bgColor: "bg-gray-50",
     features: [
       "Everything in Bronze, plus:",
       "Monthly site updates (text/images)",
@@ -45,6 +59,9 @@ const plans = [
   {
     tier: "Gold",
     name: "Maintenance + Email Hosting",
+    icon: Mail,
+    color: "text-yellow-600",
+    bgColor: "bg-yellow-50",
     features: [
       "Everything in Silver, plus:",
       "Business email hosting (e.g., info@yourdomain.co.za)",
@@ -58,6 +75,9 @@ const plans = [
   {
     tier: "Platinum",
     name: "Full Maintenance + Organic SEO",
+    icon: TrendingUp,
+    color: "text-purple-600",
+    bgColor: "bg-purple-50",
     features: [
       "Everything in Gold, plus:",
       "Basic monthly SEO (on-page SEO)",
@@ -83,51 +103,78 @@ const Pricing = () => {
     <div className="max-w-7xl mx-auto px-6 py-10">
       {/* ✅ Header */}
       <div className="text-center mb-10 mt-16">
-        <h1 className="text-4xl font-extrabold text-black mb-4">
-          Get a Custom Personalized Quote
-        </h1>
+        <div className="flex items-center justify-center mb-4">
+          
+          <h1 className="text-4xl font-extrabold text-black">
+            Get a Custom Personalized Quote
+          </h1>
+          
+        </div>
         <p className="text-lg text-black font-bold mb-16">
           Not sure which package fits your business? Contact us for a tailored solution.
         </p>
         <Link href="/contactus">
           <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-5 text-lg rounded-lg">
+            
             Contact Us
           </Button>
         </Link>
       </div>
 
       {/* ✅ Pricing Tiers */}
-      <h1 className="text-4xl font-extrabold text-black mb-4 mt-16 text-center">
-          Our tiers
+      <div className="text-center mb-10">
+        <h1 className="text-4xl font-extrabold text-black mb-4 mt-16">
+          Our Tiers
         </h1>
+      </div>
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {plans.map((plan, index) => (
-          <Card key={index} className="flex flex-col justify-between shadow-lg bg-white text-black">
-            <CardHeader>
-              <CardTitle className="text-2xl font-extrabold">{plan.tier}</CardTitle>
-              <CardDescription className="text-black">{plan.name}</CardDescription>
-            </CardHeader>
+        {plans.map((plan, index) => {
+          const IconComponent = plan.icon;
+          return (
+            <Card 
+              key={index} 
+              className={`flex flex-col justify-between shadow-lg bg-white text-black hover:shadow-xl transition-shadow duration-300 border-2 hover:border-blue-200`}
+            >
+              <CardHeader className={`${plan.bgColor} rounded-t-lg`}>
+                <div className="flex items-center justify-center mb-2">
+                  <IconComponent className={`w-12 h-12 ${plan.color}`} />
+                </div>
+                <CardTitle className="text-2xl font-extrabold text-center">
+                  {plan.tier}
+                </CardTitle>
+                <CardDescription className="text-black text-center font-medium">
+                  {plan.name}
+                </CardDescription>
+              </CardHeader>
 
-            <CardContent>
-              <ul className="list-disc pl-4 space-y-2 text-sm text-black">
-                {plan.features.map((feature, idx) => (
-                  <li key={idx}>{feature}</li>
-                ))}
-              </ul>
-            </CardContent>
+              <CardContent className="pt-6">
+                <ul className="space-y-3 text-sm text-black">
+                  {plan.features.map((feature, idx) => (
+                    <li key={idx} className="flex items-start">
+                      <Check className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
 
-            <CardFooter className="flex flex-col items-start space-y-2">
-              <p className="text-lg font-bold">{plan.price}</p>
-              <p className="text-sm">{plan.setup}</p>
-              <Button
-                className="w-full mt-2 bg-blue-600 text-white hover:bg-blue-700"
-                onClick={() => handleEnquiry(plan.name)}
-              >
-                Enquire Now
-              </Button>
-            </CardFooter>
-          </Card>
-        ))}
+              <CardFooter className="flex flex-col items-start space-y-2 pt-6">
+                <div className="text-center w-full">
+                  <p className="text-2xl font-bold text-blue-600">{plan.price}</p>
+                  <p className="text-sm text-gray-600">{plan.setup}</p>
+                </div>
+                <Button
+                  className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200"
+                  onClick={() => handleEnquiry(plan.name)}
+                >
+                  <Phone className="w-4 h-4 mr-2" />
+                  Enquire Now
+                </Button>
+              </CardFooter>
+            </Card>
+          );
+        })}
       </div>
     </div>
   );

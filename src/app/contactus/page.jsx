@@ -18,7 +18,7 @@ export default function ContactPage() {
   <div className="flex flex-col md:flex-row justify-center items-center gap-8 my-10 text-center">
     <a
       href="tel:+27663973313"
-      className="inline-block bg-black hover:text-blue-600 text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
+      className="inline-block bg-blue-600 hover:text-black text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
     >
       Call Us: +27 66 397 3313
     </a>
