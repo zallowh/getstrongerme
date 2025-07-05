@@ -1,5 +1,12 @@
 import React from "react";
 
+export const metadata = {
+  title: "3-12-Month SEO Growth Plan | GetStrongerMe - Organic SEO & Local Rankings",
+  description:
+    "Boost your Google rankings with monthly SEO, local Johannesburg targeting, keyword research, AEO for voice search, and detailed SEO reports.",
+};
+
+
 const Seo = () => {
     return(
        <section className="py-20 bg-gray-50">
@@ -15,10 +22,10 @@ const Seo = () => {
 
     {/* Content */}
     <div className="md:w-1/2 md:pl-10 font-semibold">
-      <h2 className="text-3xl font-bold mb-4">Organic SEO (12-Month Growth Plan)</h2>
+      <h2 className="text-3xl font-bold mb-4">Organic SEO (3-12-Month Growth Plan)</h2>
       <p className="mb-6 text-gray-700 leading-relaxed">
         Consistent visibility on Google is not a one-time task — it's a strategic, ongoing effort.
-        Our 12-month SEO growth plan is designed to help your website rank higher, attract more clicks, and generate free organic traffic that converts into real business.
+        Our 3-12-month SEO growth plan is designed to help your website rank higher, attract more clicks, and generate free organic traffic that converts into real business.
       </p>
 
       <ul className="list-disc pl-6 text-gray-800 space-y-2">

@@ -1,5 +1,12 @@
 import React from "react";
 
+export const metadata = {
+  title: "Website Design & landing page Audit | GetStrongerMe - Mobile-Friendly Web Services",
+  description:
+    "Get a fast, mobile-optimized website with up to 5 pages, contact forms, and SEO-ready layout. Includes free performance audit and SSL-secured hosting.",
+};
+
+
 const Websites = () => {
     return(
        <section className="py-20 bg-white">
@@ -21,10 +28,11 @@ const Websites = () => {
       </p>
       <ul className="list-disc pl-6 text-gray-800 space-y-2 font-semibold">
         <li>unlimited custom pages (Home, Services, About Us, Contact, Gallery)</li>
-        <li>Fast-loading and SEO-ready layout</li>
+        <li>website user-journey and UX-writing</li>
         <li>Mobile friendly and responsive designs</li>
         <li>Contact forms and click-to-call buttons</li>
-        <li>Free speed and performance audit</li>
+        <li>speed and performance audit</li>
+        <li>landing page audit</li>
         <li>Domain registration and SSL security setup</li>
       </ul>
       <p className="mt-6 text-blue-800 font-medium">

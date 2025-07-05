@@ -1,5 +1,12 @@
 import React from "react";
 
+export const metadata = {
+  title: "Professional Email Hosting | GetStrongerMe - Branded Email Setup",
+  description:
+    "Upgrade your brand with custom business emails like info@yourbusiness.co.za. We offer secure, spam-free email hosting for your domain, accessible anywhere.",
+};
+
+
 const Hosting = () => {
     return(
        <section className="py-20 bg-gray-50">
