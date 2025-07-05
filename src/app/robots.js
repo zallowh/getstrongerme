@@ -7,6 +7,6 @@ export default function robots() {
         disallow: ["/private", "/api", "/_next", "/server"],
       },
     ],
-    sitemap: "https://getstrongerme.com/sitemap.xml",
+    sitemap: "https://www.getstrongerme.com/sitemap.xml",
   };
 }

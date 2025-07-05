@@ -60,10 +60,10 @@ const Features = () => {
     <div className="max-w-7xl mx-auto px-6 py-10">
       {/* Header Section */}
       <div className="text-center mb-10 mt-16">
-        <h1 className="text-4xl font-extrabold text-black mb-4">
+        <h1 className="text-4xl font-extrabold text-gray-800">
           Our Features
         </h1>
-        <p className="text-lg text-black font-bold mb-16">
+        <p className="text-lg text-gray-700 font-bold mb-16">
           Everything you need to establish and grow your online presence
         </p>
       </div>
@@ -73,19 +73,19 @@ const Features = () => {
         {features.map((feature, index) => (
           <Card 
             key={index} 
-            className="flex flex-col justify-between shadow-lg bg-white text-black hover:shadow-xl transition-shadow duration-300 border-2 hover:border-blue-200"
+            className="flex flex-col justify-between shadow-lg bg-white text-gray-800 hover:shadow-xl transition-shadow duration-300 border-2 hover:border-blue-200"
           >
             <CardHeader className={`${feature.color} rounded-t-lg`}>
               <CardTitle className={`text-2xl font-extrabold text-center ${feature.titleColor}`}>
                 {feature.title}
               </CardTitle>
-              <CardDescription className="text-black text-center font-medium">
+              <CardDescription className="text-gray-800 text-center font-bold">
                 {feature.description}
               </CardDescription>
             </CardHeader>
 
             <CardContent className="pt-6">
-              <ul className="space-y-3 text-sm text-black">
+              <ul className="space-y-3 text-sm text-gray-900 font-semibold">
                 {feature.content.map((item, idx) => (
                   <li key={idx} className="flex items-start">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2 flex-shrink-0"></span>

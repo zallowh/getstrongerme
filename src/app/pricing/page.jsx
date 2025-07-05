@@ -105,12 +105,12 @@ const Pricing = () => {
       <div className="text-center mb-10 mt-16">
         <div className="flex items-center justify-center mb-4">
           
-          <h1 className="text-4xl font-extrabold text-black">
+          <h3 className="text-4xl font-extrabold">
             Get a Custom Personalized Quote
-          </h1>
+          </h3>
           
         </div>
-        <p className="text-lg text-black font-bold mb-16">
+        <p className="text-lg text-gray-800 font-bold mb-16">
           Not sure which package fits your business? Contact us for a tailored solution.
         </p>
         <Link href="/contactus">
@@ -123,7 +123,7 @@ const Pricing = () => {
 
       {/* ✅ Pricing Tiers */}
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-extrabold text-black mb-4 mt-16">
+        <h1 className="text-4xl font-extrabold text-gray-800 mb-4 mt-16">
           Our Tiers
         </h1>
       </div>
@@ -134,7 +134,7 @@ const Pricing = () => {
           return (
             <Card 
               key={index} 
-              className={`flex flex-col justify-between shadow-lg bg-white text-black hover:shadow-xl transition-shadow duration-300 border-2 hover:border-blue-200`}
+              className={`flex flex-col justify-between shadow-lg bg-white text-gray-800 hover:shadow-xl transition-shadow duration-300 border-2 hover:border-blue-200`}
             >
               <CardHeader className={`${plan.bgColor} rounded-t-lg`}>
                 <div className="flex items-center justify-center mb-2">
@@ -143,13 +143,13 @@ const Pricing = () => {
                 <CardTitle className="text-2xl font-extrabold text-center">
                   {plan.tier}
                 </CardTitle>
-                <CardDescription className="text-black text-center font-medium">
+                <CardDescription className="text-gray-800 text-center font-medium">
                   {plan.name}
                 </CardDescription>
               </CardHeader>
 
               <CardContent className="pt-6">
-                <ul className="space-y-3 text-sm text-black">
+                <ul className="space-y-3 text-sm text-gray-800 font-semibold">
                   {plan.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
                       <Check className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -162,7 +162,7 @@ const Pricing = () => {
               <CardFooter className="flex flex-col items-start space-y-2 pt-6">
                 <div className="text-center w-full">
                   <p className="text-2xl font-bold text-blue-600">{plan.price}</p>
-                  <p className="text-sm text-gray-600">{plan.setup}</p>
+                  <p className="text-sm text-gray-600 font-semibold">{plan.setup}</p>
                 </div>
                 <Button
                   className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200"

@@ -23,21 +23,21 @@ const AboutUs = () => {
         <div></div>
         <div className="md:w-1/2 md:pl-12">
           <h3 className="text-3xl font-bold mb-4">Who We Are</h3>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 font-semibold">
             <strong>Strongerme</strong>, we’re passionate digital partners
             dedicated to helping Gauteng and Johannesburg start-ups thrive online.
             We specialize in building and optimizing your entire digital presence—
             from Google Business Profiles and websites to email hosting and comprehensive
             audits of your current online business life.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 font-semibold">
             We know what it’s like to start from scratch—because we’re doing it too.
             Our team combines fresh perspectives with up-to-date digital know-how,
             focusing on practical solutions that deliver real impact for emerging businesses.
             We don’t just offer services; we offer a partnership built on transparency,
             creativity, and a genuine commitment to your success.
           </p>
-          <p className="text-gray-700 mb-6">
+          <p className="text-gray-700 mb-6 font-semibold">
             Whether you’re launching your first website or looking to upgrade your
             existing digital footprint, we’re here to guide you every step of the way.
             Let’s grow together—your success is our first case study.
@@ -45,7 +45,7 @@ const AboutUs = () => {
 
           {/* Why Choose Us */}
           <h4 className="text-2xl font-semibold mb-3">Why Choose Us?</h4>
-          <ul className="list-disc pl-5 text-gray-700 space-y-2 mb-6">
+          <ul className="list-disc pl-5 text-gray-700 space-y-2 mb-6 font-semibold">
             <li>We’re startup-friendly and understand budget realities.</li>
             <li>Fast turnaround times tailored for small businesses.</li>
             <li>Genuine local support for Johannesburg and Gauteng businesses.</li>
@@ -55,7 +55,7 @@ const AboutUs = () => {
       </div>
       </div>
 
-      <div className="max-w-[700px] mx-auto">
+      <div className="max-w-[700px] mx-auto font-semibold">
       {/* Our Mission */}
         <h4 className="text-2xl font-semibold mb-3">Our Mission</h4>
         <p className="text-gray-700 mb-4">

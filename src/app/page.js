@@ -23,8 +23,8 @@ export default function Home() {
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "Strongerme",
-                "url": "https://getstrongerme.com",
-                "logo": "https://getstrongerme.com/favicon-32x32.png",  // Update with your actual logo url
+                "url": "https://www.getstrongerme.com",
+                "logo": "https://www.getstrongerme.com/favicon-32x32.png",  // Update with your actual logo url
                 "description": "Affordable websites, SEO, and hosting for small businesses in Johannesburg.",
                 "address": {
                   "@type": "new town johannesburg",
@@ -55,9 +55,9 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black opacity-30" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-8">
-          <h2 className="text-5xl font-extrabold text-white">Get Your Business Online</h2>
-          <p className="mt-4 text-lg text-black font-extrabold underline decoration-3 max-w-xl">
-            POPULARITY | TRAFFIC | CONVERSION
+          <h2 className="text-5xl font-extrabold text-white">Get Your Business found</h2>
+          <p className="mt-4 text-3xl text-gray-900 font-bold">
+            SEO and google profile/map, Website design, and email hosting
           </p>
           <Link href="/pricing">
             <Button className=" bg-blue-600 hover:bg-blue-100 text-white mt-6">

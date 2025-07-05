@@ -12,20 +12,20 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <main className="max-w-7xl mx-auto p-6">
-      <h1 className="text-3xl font-bold m-16 text-center">We Value Your Time: We Respond Instantly to Every Inquiry!</h1>
+      <h1 className="text-3xl font-bold m-16 text-center text-gray-800">We Value Your Time: We Respond Instantly to Every Inquiry!</h1>
       
       <div>
-  <div className="flex flex-col md:flex-row justify-center items-center gap-8 my-10 text-center">
+  <div className="flex flex-col md:flex-row justify-center items-center gap-8 my-10 text-center font-semibold">
     <a
       href="tel:+27663973313"
-      className="inline-block bg-blue-600 hover:text-black text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
+      className="inline-block bg-blue-700 hover:text-gray-900 text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
     >
       Call Us: +27 66 397 3313
     </a>
 
     <a
       href="mailto:zallowhmncube@gmail.com"
-      className="inline-block bg-black hover:text-blue-600 text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
+      className="inline-block bg-gray-800 hover:text-blue-600 text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
     >
       Email Us: zallowhmncube@gmail.com
     </a>
