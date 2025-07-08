@@ -2,14 +2,36 @@ import React from "react";
 
 export const metadata = {
   title: "Website Design & landing page Audit | GetStrongerMe - Mobile-Friendly Web Services",
-  description:
-    "Get a fast, mobile-optimized website with up to 5 pages, contact forms, and SEO-ready layout. Includes free performance audit and SSL-secured hosting.",
+  description: "Mobile-friendly, SEO-optimized websites built for small businesses. Fast, affordable, and tailored to your goals.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/ourservice/websites",
+  },
 };
 
-
 const Websites = () => {
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Website Design",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetStrongerMe"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Johannesburg"
+  },
+  "url": "https://www.getstrongerme.com/ourservice/websites",
+  "description": "We build modern, mobile-first websites for small businesses with SEO and Google Ads integration."
+}
+
     return(
        <section className="py-20 bg-white">
+        {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
   <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
     {/* Image Side */}
     <div className="md:w-1/2 mb-10 md:mb-0">

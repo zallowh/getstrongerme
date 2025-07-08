@@ -3,16 +3,38 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Google Ads Management Services | GetStrongerMe - Instant Traffic & PPC Campaigns",
-  description:
-    "Run effective Google Ads campaigns with targeted search, display, and YouTube ads. Drive instant traffic, leads, and sales with PPC advertising in Johannesburg.",
+  title: "Google Ads Management | Paid Search for Small Businesses",
+  description: "Get instant visibility with Google Ads. We build, optimize, and track ad campaigns for Johannesburg-based businesses.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/ourservice/googleAds",
+  },
 };
 
-
 const GoogleAds = () => {
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Google Ads Management",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetStrongerMe"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Johannesburg"
+  },
+  "url": "https://www.getstrongerme.com/ourservice/googleAds",
+  "description": "We manage Google Ads for small businesses — setup, content writing, optimization, and performance tracking."
+}
+
     return(
-        <div>
-            <div className="max-w-[700px] mx-auto font-semibold">
+     <div>
+          {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    <div className="max-w-[700px] mx-auto font-semibold">
   <div className="w-full">
     <h1 className="text-4xl font-bold m-8">Google Ads Management Services</h1>
     <p className="mb-10">Instant traffic. Measurable results. Smart advertising.</p>

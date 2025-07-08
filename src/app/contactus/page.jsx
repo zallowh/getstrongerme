@@ -1,17 +1,42 @@
-
-
 import React from "react";
 import ContactForm from "@/components/contactForm";
 
 export const metadata = {
-  title: "Contact Us | GetStrongerMe - Website & SEO Services",
-  description: "Have questions? Need a quote? Contact GetStrongerMe for affordable website design, SEO services, and digital marketing support in Johannesburg.",
+  title: "Contact Us | GetStrongerMe - Speak to a Digital Expert",
+  description: "Get in touch with GetStrongerMe for web design, SEO, and Google Ads services. Serving small businesses across Gauteng.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/contactus",
+  },
 };
 
 
 export default function ContactPage() {
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Us",
+  "url": "https://www.getstrongerme.com/contactus",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "GetStrongerMe",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+27663973313",
+      "contactType": "Customer Support",
+      "areaServed": "ZA",
+      "availableLanguage": "en"
+    }
+  }
+}
+
   return (
     <main className="max-w-7xl mx-auto p-6">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <h1 className="text-3xl font-bold m-16 text-center text-gray-800">We Value Your Time: We Respond Instantly to Every Inquiry!</h1>
       
       <div>

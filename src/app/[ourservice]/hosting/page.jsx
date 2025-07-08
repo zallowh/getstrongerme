@@ -2,14 +2,32 @@ import React from "react";
 
 export const metadata = {
   title: "Professional Email Hosting | GetStrongerMe - Branded Email Setup",
-  description:
-    "Upgrade your brand with custom business emails like info@yourbusiness.co.za. We offer secure, spam-free email hosting for your domain, accessible anywhere.",
+  description: "Professional email hosting for small businesses. Branded emails that improve trust and communication.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/ourservice/hosting",
+  },
 };
 
-
 const Hosting = () => {
+  const jsonLd ={
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Email Hosting",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetStrongerMe"
+  },
+  "url": "https://www.getstrongerme.com/ourservice/hosting",
+  "description": "Affordable business email hosting for small teams in South Africa using your own domain."
+}
+
     return(
        <section className="py-20 bg-gray-50">
+        {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
   <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
     {/* Image Placeholder */}
     <div className="md:w-1/2 mb-10 md:mb-0">

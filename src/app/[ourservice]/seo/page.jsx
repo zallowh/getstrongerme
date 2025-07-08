@@ -1,15 +1,40 @@
 import React from "react";
 
 export const metadata = {
-  title: "3-12-Month SEO Growth Plan | GetStrongerMe - Organic SEO & Local Rankings",
-  description:
-    "Boost your Google rankings with monthly SEO, local Johannesburg targeting, keyword research, AEO for voice search, and detailed SEO reports.",
+  title: "SEO Services | GetStrongerMe - Rank Higher on Google",
+  description: "Our SEO services help Johannesburg businesses grow their Google rankings with on-page, local SEO, and voice search optimization.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/ourservice/seo",
+  },
 };
 
 
 const Seo = () => {
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "SEO Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetStrongerMe",
+    "url": "https://www.getstrongerme.com"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Johannesburg"
+  },
+  "url": "https://www.getstrongerme.com/ourservice/seo",
+  "description": "Improve your business's visibility with on-page SEO, local Johannesburg targeting, and Google ranking improvements."
+}
+
     return(
        <section className="py-20 bg-gray-50">
+        {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
   <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
     {/* Image */}
     <div className="md:w-1/2 mb-10 md:mb-0">

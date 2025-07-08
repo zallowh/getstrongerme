@@ -1,15 +1,39 @@
 import React from "react";
 
 export const metadata = {
-  title: "Business Profile & google map | GetStrongerMe",
-  description:
-    "Get your business found on Google with a verified Business Profile. We set up your Google Maps presence and host your basic website on blazing fast local servers.",
+  title: "Business Profile Creation | Google Business & Map Setup",
+  description: "We create and optimize your Google Business Profile to help you appear on Maps and local search results.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/ourservice/profile",
+  },
 };
 
 
 const profiling = () => {
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Google Business Profile Setup",
+  "provider": {
+    "@type": "Organization",
+    "name": "GetStrongerMe"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Gauteng"
+  },
+  "url": "https://www.getstrongerme.com/ourservice/profile",
+  "description": "We help small businesses create and manage their Google Business profiles for better visibility on Maps and local results."
+}
+
     return(
        <section className="py-20 bg-white">
+         {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
   <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
     {/* Image Placeholder */}
     <div className="md:w-1/2 mb-10 md:mb-0">
