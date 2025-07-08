@@ -57,7 +57,7 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-8">
           <h2 className="text-5xl font-extrabold text-white">Get Your Business found</h2>
           <p className="mt-4 text-3xl text-gray-900 font-bold">
-            SEO and google profile/map, Website design, and email hosting
+            SEO and Google Ads , Website design, email hosting, and Google profile/map
           </p>
           <Link href="/pricing">
             <Button className=" bg-blue-600 hover:bg-blue-100 text-white mt-6">

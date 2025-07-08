@@ -114,7 +114,7 @@ const Pricing = () => {
           Not sure which package fits your business? Contact us for a tailored solution.
         </p>
         <Link href="/contactus">
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-5 text-lg rounded-lg">
+          <Button className="bg-blue-600 hover:bg-blue-300 text-white px-6 py-5 text-lg rounded-lg">
             
             Contact Us
           </Button>
@@ -165,7 +165,7 @@ const Pricing = () => {
                   <p className="text-sm text-gray-600 font-semibold">{plan.setup}</p>
                 </div>
                 <Button
-                  className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200"
+                  className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-300 transition-colors duration-200"
                   onClick={() => handleEnquiry(plan.name)}
                 >
                   <Phone className="w-4 h-4 mr-2" />

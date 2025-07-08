@@ -12,6 +12,7 @@ export default function sitemap() {
     "/ourservice/profile",
     "/ourservice/websites",
     "/ourservice/hosting",
+    "/ourservice/googleAds",
   ];
 
   return routes.map((route) => ({
