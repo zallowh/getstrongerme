@@ -1,11 +1,10 @@
 
-
-import Features from "@/components/features";
+{/*import Features from "@/components/features";*/}
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "GetStrongerMe | Affordable Business Websites in Johannesburg",
+  title: "Strongerme Digital marketing agency | Affordable Business Websites in Johannesburg",
   description: "We build SEO-optimized, mobile-friendly websites for small businesses in Johannesburg. Boost your online visibility, traffic, and sales today.",
   alternates: {
     canonical: "https://www.getstrongerme.com",
@@ -91,7 +90,7 @@ export default function Home() {
       </section>
 
       {/* Features */}
-      <Features />
+      {/* <Features /> */}
     </div>
   );
 }
