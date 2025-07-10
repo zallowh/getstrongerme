@@ -15,6 +15,7 @@ export default function sitemap() {
     "/ourservice/googleAds",
     "/blog/free-backlinks-sa",
     "/blog/domain-rating-vs-authority",
+    "/blog/reassessment-questions",
     "/blog",
     "/faq/choose-us",
     "/faq/seo-basics",

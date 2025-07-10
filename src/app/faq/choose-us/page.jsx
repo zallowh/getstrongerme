@@ -1,5 +1,6 @@
 // app/faq/how-to-choose-a-digital-marketing-agency/page.jsx
 import React from "react";
+import Link from "next/link";
 
 export const metadata = {
   title: "How to Choose a Digital Marketing Agency | Strongerme",
@@ -109,6 +110,22 @@ export default function ChooseAgencyPage() {
           The best agency doesn’t just execute tasks—they act as a strategic partner committed to your success.
         </p>
       </section>
+
+      <div className="mt-12 p-6 bg-blue-50 border-l-4 border-blue-700 rounded-lg">
+        <h3 className="text-xl font-bold mb-2 text-blue-800">
+          Already have a Digital Agency?
+        </h3>
+        <p className="mb-3 text-gray-700">
+          Explore our 5 reassessment questions for your current digital marketing agency. 
+          Don’t settle for “good enough”—choose an agency that works for your success.
+        </p>
+        <Link
+          href="/blog/reassessment-questions"
+          className="text-blue-700 underline font-semibold"
+        >
+          Read: 5 Reassessment Questions for Your Digital Marketing Agency →
+        </Link>
+      </div>
     </main>
   );
 }

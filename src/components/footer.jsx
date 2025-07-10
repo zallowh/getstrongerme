@@ -133,7 +133,12 @@ const Footer = () => {
             </li>
             <li>
               <a href="/blog/domain-rating-vs-authority" className="text-blue-600 hover:text-white">
-                Domain Rating + Domain Authority
+                Domain R + A
+              </a>
+            </li>
+             <li>
+              <a href="/blog/reassessment-questions" className="text-blue-600 hover:text-white">
+              5 reassessment questions
               </a>
             </li>
           </ul>

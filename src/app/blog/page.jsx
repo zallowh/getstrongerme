@@ -9,7 +9,6 @@ export const metadata = {
   },
 };
 
-
 export default function BlogIndexPage() {
   const posts = [
     {
@@ -24,25 +23,32 @@ export default function BlogIndexPage() {
       description:
         "An in-depth comparison of DR and DA SEO metrics. Learn how each is calculated, why they matter, and when to use one over the other for SEO and link-building.",
     },
+    {
+      slug: "/blog/reassessment-questions",
+      title: "5 Reassessment Questions for Your Digital Marketing Strategy",
+      description:
+        "Before staying loyal to a digital agency that isn't delivering ROI, ask yourself these 5 critical questions. Reassess your SEO, ad performance, and growth efforts.",
+    },
   ];
-   const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": "Strongerme Blog",
-  "url": "https://www.getstrongerme.com/blog",
-  "description": "SEO, Google Ads, web design, and digital strategy tips for small businesses in South Africa.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Strongerme",
-    "url": "https://www.getstrongerme.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.getstrongerme.com/logo.png",
-      "width": 512,
-      "height": 512
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Strongerme Blog",
+    "url": "https://www.getstrongerme.com/blog",
+    "description": "SEO, Google Ads, web design, and digital strategy tips for small businesses in South Africa.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Strongerme",
+      "url": "https://www.getstrongerme.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.getstrongerme.com/logo.png",
+        "width": 512,
+        "height": 512
+      }
     }
-  }
-}
+  };
 
   return (
     <div className="p-8 max-w-5xl mx-auto">
@@ -64,7 +70,10 @@ export default function BlogIndexPage() {
               </h2>
             </Link>
             <p className="text-gray-600 mt-2">{post.description}</p>
-            <Link href={post.slug} className="text-sm text-blue-600 mt-4 inline-block hover:underline">
+            <Link
+              href={post.slug}
+              className="text-sm text-blue-600 mt-4 inline-block hover:underline"
+            >
               Read more →
             </Link>
           </div>
