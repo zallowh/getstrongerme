@@ -25,7 +25,7 @@ export default function BlogIndexPage() {
         "An in-depth comparison of DR and DA SEO metrics. Learn how each is calculated, why they matter, and when to use one over the other for SEO and link-building.",
     },
   ];
-   jsonLd = {
+   const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Blog",
   "name": "Strongerme Blog",
