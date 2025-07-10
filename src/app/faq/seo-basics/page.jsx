@@ -3,14 +3,50 @@ import React from "react";
 import FAQAccordion from "@/components/faqSeo";
 
 export const metadata = {
-  title: "SEO Basics for Beginners – Improve Google Rankings | GetStrongerMe",
+  title: "SEO Basics for Beginners – Improve Google Rankings | Strongerme",
   description:
     "Learn the fundamentals of SEO, how to rank higher on Google Maps, local SEO for service businesses, and the 2025 on-page SEO checklist. Debunk SEO myths and improve your organic traffic.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/faq/seo-basics",
+  },
 };
 
 export default function SeoBasicsPage() {
+  const jsonLd ={
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.getstrongerme.com/faq/seo-basics"
+  },
+  "headline": "SEO Basics for Beginners | StrongerMe Guide",
+  "description": "Understand the fundamentals of SEO, including technical SEO, on-page optimization, keyword targeting, Google Maps ranking, and local SEO strategies.",
+  "author": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "url": "https://www.getstrongerme.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.getstrongerme.com/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2025-07-09",
+  "dateModified": "2025-07-09"
+}
+
   return (
     <main className="max-w-5xl mx-auto p-6 space-y-8 text-gray-800">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold text-center">SEO Basics for Beginners</h1>
 
       <section>

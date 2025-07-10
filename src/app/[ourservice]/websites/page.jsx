@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Website Design & landing page Audit | GetStrongerMe - Mobile-Friendly Web Services",
+  title: "Website Design & landing page Audit | Strongerme - Mobile-Friendly Web Services",
   description: "Mobile-friendly, SEO-optimized websites built for small businesses. Fast, affordable, and tailored to your goals.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/websites",
@@ -15,7 +15,7 @@ const Websites = () => {
   "serviceType": "Website Design",
   "provider": {
     "@type": "Organization",
-    "name": "GetStrongerMe"
+    "name": "Strongerme"
   },
   "areaServed": {
     "@type": "Place",

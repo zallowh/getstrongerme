@@ -7,6 +7,9 @@ import Link from "next/link";
 export const metadata = {
   title: "GetStrongerMe | Affordable Business Websites in Johannesburg",
   description: "We build SEO-optimized, mobile-friendly websites for small businesses in Johannesburg. Boost your online visibility, traffic, and sales today.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com",
+  },
 };
 
 
@@ -70,12 +73,12 @@ export default function Home() {
       <section>
         <div className="mt-12 text-center px-6 md:px-20">
   <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
-    We're not just a professional digital marketing agency —
+    We&apos;re not just a professional digital marketing agency —
   </h2>
   <p className="text-xl md:text-2xl text-gray-700 font-medium max-w-4xl mx-auto">
     At <span className="text-blue-700 font-semibold">Strongerme</span>, we prioritize people over profits.
     That means clear communication, strategies aligned with your goals, and NO one-size-fits-all packages.
-    Whether you're a startup or local business, we work as if your business were our own —
+    Whether you&apos;re a startup or local business, we work as if your business were our own —
     because real growth starts with partnership, not pressure.
   </p>
 

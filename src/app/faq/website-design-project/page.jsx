@@ -2,14 +2,49 @@
 import React from "react";
 
 export const metadata = {
-  title: "What to Expect from a Website Design Project | GetStrongerMe",
+  title: "What to Expect from a Website Design Project | Strongerme",
   description:
     "Explore the full lifecycle of a website design project—from discovery and planning to launch and maintenance. Learn the importance of mobile design, SEO best practices, and 2025 design trends.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/faq/website-design-project",
+  },
 };
 
 export default function WebsiteDesignProjectPage() {
+  const jsonLd ={
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.getstrongerme.com/faq/website-design-project"
+  },
+  "headline": "What to Expect from a Website Design Project in 2025",
+  "description": "Learn the full process of a professional website design project — from discovery to design, development, launch, mobile readiness, SEO, and ongoing audits.",
+  "author": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "url": "https://www.getstrongerme.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.getstrongerme.com/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2025-07-09",
+  "dateModified": "2025-07-09"
+}
   return (
     <main className="max-w-5xl mx-auto p-6 space-y-8 text-gray-800">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold text-center">
         What to Expect from a Website Design Project
       </h1>

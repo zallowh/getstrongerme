@@ -2,14 +2,49 @@
 import React from "react";
 
 export const metadata = {
-  title: "How to Choose a Digital Marketing Agency | GetStrongerMe",
+  title: "How to Choose a Digital Marketing Agency | Strongerme",
   description:
     "Learn how to choose the right digital marketing agency for your business. Discover what to look for, red flags to avoid, and how to evaluate expertise, transparency, and results.",
-};
+  alternates: {
+    canonical: "https://www.getstrongerme.com/faq/choose-us",
+  },
+  };
 
 export default function ChooseAgencyPage() {
+  const jsonLd ={
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.getstrongerme.com/faq/choose-us"
+  },
+  "headline": "How to Choose the Right Digital Marketing Agency",
+  "description": "Not all agencies are built the same. Learn how to compare digital marketing agencies and find the right fit based on trust, transparency, and results.",
+  "author": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "url": "https://www.getstrongerme.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.getstrongerme.com/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2025-07-09",
+  "dateModified": "2025-07-09"
+}
   return (
     <main className="max-w-5xl mx-auto p-6 space-y-8 text-gray-800">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold text-center">
         How to Choose a Digital Marketing Agency
       </h1>

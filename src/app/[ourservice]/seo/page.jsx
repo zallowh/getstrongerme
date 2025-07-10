@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "SEO Services | GetStrongerMe - Rank Higher on Google",
+  title: "SEO Services | Strongerme - Rank Higher on Google",
   description: "Our SEO services help Johannesburg businesses grow their Google rankings with on-page, local SEO, and voice search optimization.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/seo",
@@ -16,7 +16,7 @@ const Seo = () => {
   "serviceType": "SEO Services",
   "provider": {
     "@type": "Organization",
-    "name": "GetStrongerMe",
+    "name": "Strongerme",
     "url": "https://www.getstrongerme.com"
   },
   "areaServed": {

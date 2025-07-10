@@ -17,7 +17,7 @@ const GoogleAds = () => {
   "serviceType": "Google Ads Management",
   "provider": {
     "@type": "Organization",
-    "name": "GetStrongerMe"
+    "name": "Strongerme"
   },
   "areaServed": {
     "@type": "Place",

@@ -1,8 +1,50 @@
 import React from "react";
 
+export const metadata = {
+  title: "Free Backlinks in South Africa | Strongerme SEO Tools",
+  description:
+    "Get high-quality free backlinks for your South African website. Boost your domain authority and Google rankings with our local SEO backlink guide.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/blog/free-backlinks-sa",
+  },
+};
+
 export default function FreeBacklinksSA() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.getstrongerme.com/blog/free-backlinks-sa"
+    },
+    "headline": "Free Backlinks in South Africa | Strongerme SEO Tools",
+    "description": "Get high-quality free backlinks for your South African website. Boost your domain authority and Google rankings with our local SEO backlink guide.",
+    "author": {
+      "@type": "Organization",
+      "name": "Strongerme",
+      "url": "https://www.getstrongerme.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Strongerme",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.getstrongerme.com/logo.png",
+        "width": 512,
+        "height": 512
+      }
+    },
+    "datePublished": "2025-07-09",
+    "dateModified": "2025-07-09"
+  }
+  
   return (
     <div className="p-8 max-w-5xl mx-auto">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold mb-6">Free Backlinks in South Africa (High DR/DA)</h1>
       <p className="mb-4">
         This resource helps you build backlinks from South African and international sites with high Domain Rating (DR) and Domain Authority (DA), boosting your site's visibility and authority.

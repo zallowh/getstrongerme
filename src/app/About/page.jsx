@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "About Us | GetStrongerMe - Business Website Experts",
+  title: "About Us | Strongerme - Business Website, Google Ads, SEO, Experts",
   description:
-    "Learn more about GetStrongerMe, our mission, and how we help small businesses grow online through affordable websites, SEO, and digital marketing services.",
+    "Learn more about Strongerme, our mission, and how we help small businesses grow online through affordable websites, SEO, and digital marketing services.",
   alternates: {
     canonical: "https://www.getstrongerme.com/About",
   },
@@ -15,7 +15,7 @@ const AboutUs = () => {
     "@type": "AboutPage",
     name: "About Us",
     description:
-      "GetStrongerMe is a digital agency helping Johannesburg small businesses grow online through SEO, web design, and digital tools.",
+      "Strongerme is a digital agency helping Johannesburg small businesses grow online through SEO, web design, and digital tools.",
     url: "https://www.getstrongerme.com/About",
   };
 

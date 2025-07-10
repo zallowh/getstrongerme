@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Professional Email Hosting | GetStrongerMe - Branded Email Setup",
+  title: "Professional Email Hosting | Strongerme - Branded Email Setup",
   description: "Professional email hosting for small businesses. Branded emails that improve trust and communication.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/hosting",

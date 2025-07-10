@@ -16,7 +16,7 @@ const profiling = () => {
   "serviceType": "Google Business Profile Setup",
   "provider": {
     "@type": "Organization",
-    "name": "GetStrongerMe"
+    "name": "Strongerme"
   },
   "areaServed": {
     "@type": "Place",

@@ -1,8 +1,51 @@
 import React from "react";
 
+export const metadata = {
+  title: "Domain Rating (DR) vs Domain Authority (DA) | SEO Metrics Explained",
+  description:
+    "Understand the key differences between DR and DA — two popular SEO metrics used to assess website authority. Learn which metric to trust for link building and SEO analysis.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/blog/domain-rating-vs-authority",
+  },
+};
+
+
 export default function DRvsDA() {
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.getstrongerme.com/blog/domain-rating-vs-authority"
+  },
+  "headline": "Domain Rating (DR) vs Domain Authority (DA) | SEO Metrics Explained",
+  "description": "Understand the difference between DR and DA — two leading SEO metrics used to evaluate backlink strength and domain authority.",
+  "author": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "url": "https://www.getstrongerme.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.getstrongerme.com/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2025-07-09",
+  "dateModified": "2025-07-09"
+}
+
   return (
     <div className="p-8 max-w-5xl mx-auto">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold mb-6">Domain Rating (DR) vs Domain Authority (DA)</h1>
       <p className="mb-4">
         Domain Rating (DR) and Domain Authority (DA) are two widely used SEO metrics that estimate the authority and ranking potential of a website. Although both are scored on a 0–100 scale, they are developed by different companies (Ahrefs and Moz) and use distinct calculation methodologies.

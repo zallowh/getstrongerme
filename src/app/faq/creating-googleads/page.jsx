@@ -2,14 +2,50 @@
 import React from "react";
 
 export const metadata = {
-  title: "Creating Google Ads Campaigns – FAQ | GetStrongerMe",
+  title: "Creating Google Ads Campaigns – FAQ | Strongerme",
   description:
     "Comprehensive guide on setting up and optimizing Google Ads campaigns, including comparison with Facebook Ads and local PPC strategies.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/faq/creating-googleads",
+  },
 };
 
 export default function CreatingGoogleAdsPage() {
+  const jsonLd ={
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.getstrongerme.com/faq/creating-googleads"
+  },
+  "headline": "How to Set Up Google Ads Campaigns (Step-by-Step)",
+  "description": "Learn how to create a high-performing Google Ads campaign, including choosing goals, audience targeting, bidding strategies, and ad creation.",
+  "author": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "url": "https://www.getstrongerme.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.getstrongerme.com/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2025-07-09",
+  "dateModified": "2025-07-09"
+}
+
   return (
     <main className="max-w-5xl mx-auto p-6 space-y-8 text-gray-800">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold text-center">Creating Google Ads & PPC Campaigns</h1>
 
       <section>

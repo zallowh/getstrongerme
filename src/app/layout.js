@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  title: "GetStrongerMe | Business Websites & SEO",
+  title: "Strongerme RSA | Business Websites & Google Ads, SEO",
   description: "Affordable websites, SEO, and hosting for small businesses in Johannesburg.",
 };
 

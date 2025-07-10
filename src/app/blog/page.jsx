@@ -1,5 +1,14 @@
-// /app/blog/page.jsx
 import Link from "next/link";
+
+export const metadata = {
+  title: "Strongerme Blog | SEO, Marketing, and Website Tips for Small Businesses",
+  description:
+    "Explore our blog for expert insights on SEO, Google Ads, web design, and digital growth strategies tailored to South African entrepreneurs.",
+  alternates: {
+    canonical: "https://www.getstrongerme.com/blog",
+  },
+};
+
 
 export default function BlogIndexPage() {
   const posts = [
@@ -16,9 +25,32 @@ export default function BlogIndexPage() {
         "An in-depth comparison of DR and DA SEO metrics. Learn how each is calculated, why they matter, and when to use one over the other for SEO and link-building.",
     },
   ];
+   jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Strongerme Blog",
+  "url": "https://www.getstrongerme.com/blog",
+  "description": "SEO, Google Ads, web design, and digital strategy tips for small businesses in South Africa.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Strongerme",
+    "url": "https://www.getstrongerme.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.getstrongerme.com/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
 
   return (
     <div className="p-8 max-w-5xl mx-auto">
+      {/* ✅ JSON-LD injected here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-3xl font-bold mb-6">SEO Blog & Resources</h1>
       <p className="mb-8 text-gray-700">
         Learn how to grow your site's authority, build backlinks, and improve your SEO using proven strategies tailored for South African websites and beyond.
