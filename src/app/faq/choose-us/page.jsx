@@ -3,9 +3,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "How to Choose a Digital Marketing Agency | Strongerme",
+  title: "How to Choose a Digital Marketing Agency",
   description:
-    "Learn how to choose the right digital marketing agency for your business. Discover what to look for, red flags to avoid, and how to evaluate expertise, transparency, and results.",
+    "Learn how to choose the right digital marketing agency for your business.",
   alternates: {
     canonical: "https://www.getstrongerme.com/faq/choose-us",
   },

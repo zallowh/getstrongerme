@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "Free Backlinks in South Africa | Strongerme SEO Tools",
+  title: "Free Backlinks in South Africa, SEO Tools",
   description:
-    "Get high-quality free backlinks for your South African website. Boost your domain authority and Google rankings with our local SEO backlink guide.",
+    "Get high-quality free backlinks for your South African website.",
   alternates: {
     canonical: "https://www.getstrongerme.com/blog/free-backlinks-sa",
   },

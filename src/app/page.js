@@ -27,13 +27,13 @@ export default function Home() {
                 "name": "Strongerme",
                 "url": "https://www.getstrongerme.com",
                 "logo": "https://www.getstrongerme.com/favicon-32x32.png",  // Update with your actual logo url
-                "description": "Affordable websites, SEO, and hosting for small businesses in Johannesburg.",
+                "description": "websites, SEO, and hosting for small businesses in Johannesburg.",
                 "address": {
-                  "@type": "new town johannesburg",
+                  "@type": "PostalAddress",
                   "addressLocality": "Johannesburg",
                   "addressRegion": "Gauteng",
                   "addressCountry": "South Africa"
-                },
+                          },
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "telephone": "+27 66 397 3313",

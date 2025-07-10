@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "5 Reassessment Questions for Your Digital Marketing Strategy",
+  title: "5 Reassessment Questions for Your Digital Marketing Agency",
   description:
-    "Before you stay loyal to a digital agency that isn't delivering ROI, ask yourself these tough but essential questions. Reassess your SEO, ad performance, and competition strategy today.",
+    "Ask yourself these tough but essential questions. Reassess your performance, and competition strategy.",
   alternates: {
     canonical: "https://www.getstrongerme.com/blog/reassessment-questions",
   },

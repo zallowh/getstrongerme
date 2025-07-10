@@ -82,7 +82,7 @@ export default function NavBar() {
       }`}
     >
       <div className="">
-        <h1 className="text-2xl font-bold text-blue-600 px-4">Strongerme RSA</h1>
+        <p className="text-2xl font-bold text-blue-600 px-4">Strongerme RSA</p>
         <p className="text-xsm font-bold text-gray-800 px-4">Popularity | Traffic | Conversions</p>
         
         <nav className="flex items-center justify-between px-6 py-2 mt">

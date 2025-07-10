@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Google Ads Management | Paid Search for Small Businesses",
-  description: "Get instant visibility with Google Ads. We build, optimize, and track ad campaigns for Johannesburg-based businesses.",
+  title: "Google Ads Management.",
+  description: "Get instant visibility with Google Ads. Johannesburg-based businesses.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/googleAds",
   },

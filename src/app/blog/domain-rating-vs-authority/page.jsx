@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "Domain Rating (DR) vs Domain Authority (DA) | SEO Metrics Explained",
+  title: "Domain Rating (DR) vs Domain Authority (DA)",
   description:
-    "Understand the key differences between DR and DA — two popular SEO metrics used to assess website authority. Learn which metric to trust for link building and SEO analysis.",
+    "Understand the key differences between DR and DA — two popular SEO metrics used to assess website authority.",
   alternates: {
     canonical: "https://www.getstrongerme.com/blog/domain-rating-vs-authority",
   },

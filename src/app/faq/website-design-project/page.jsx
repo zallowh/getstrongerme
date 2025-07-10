@@ -2,9 +2,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "What to Expect from a Website Design Project | Strongerme",
+  title: "What to Expect from a Website Design.",
   description:
-    "Explore the full lifecycle of a website design project—from discovery and planning to launch and maintenance. Learn the importance of mobile design, SEO best practices, and 2025 design trends.",
+    "Explore the full lifecycle of a website design project.",
   alternates: {
     canonical: "https://www.getstrongerme.com/faq/website-design-project",
   },

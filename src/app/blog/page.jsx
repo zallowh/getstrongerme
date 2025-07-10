@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Strongerme Blog | SEO, Marketing, and Website Tips for Small Businesses",
+  title: "Strongerme Blog | Tips for all Businesses",
   description:
-    "Explore our blog for expert insights on SEO, Google Ads, web design, and digital growth strategies tailored to South African entrepreneurs.",
+    "Explore our blog for expert insights and digital growth strategies.",
   alternates: {
     canonical: "https://www.getstrongerme.com/blog",
   },

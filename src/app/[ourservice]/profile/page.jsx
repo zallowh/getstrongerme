@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Business Profile Creation | Google Business & Map Setup",
-  description: "We create and optimize your Google Business Profile to help you appear on Maps and local search results.",
+  title: "Business Profile | Google Business & Maps",
+  description: "We create and optimize your Google Business Profile.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/profile",
   },
@@ -58,6 +58,7 @@ const profiling = () => {
       </p>
     </div>
   </div>
+  
 </section>
     )
 }

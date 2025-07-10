@@ -2,9 +2,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "Creating Google Ads Campaigns – FAQ | Strongerme",
+  title: "Creating Google Ads Campaigns – FAQ",
   description:
-    "Comprehensive guide on setting up and optimizing Google Ads campaigns, including comparison with Facebook Ads and local PPC strategies.",
+    "Comprehensive guide on setting up and optimizing Google Ads campaigns.",
   alternates: {
     canonical: "https://www.getstrongerme.com/faq/creating-googleads",
   },

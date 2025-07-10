@@ -2,8 +2,8 @@ import React from "react";
 import ContactForm from "@/components/contactForm";
 
 export const metadata = {
-  title: "Contact Us | GetStrongerMe - Speak to a Digital Expert",
-  description: "Get in touch with GetStrongerMe for web design, SEO, and Google Ads services. Serving small businesses across Gauteng.",
+  title: "Contact Us | Speak to a Digital Expert",
+  description: "Get in touch for web design, SEO, and Google Ads services. Serving all businesses.",
   alternates: {
     canonical: "https://www.getstrongerme.com/contactus",
   },

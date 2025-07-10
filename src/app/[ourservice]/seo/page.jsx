@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "SEO Services | Strongerme - Rank Higher on Google",
-  description: "Our SEO services help Johannesburg businesses grow their Google rankings with on-page, local SEO, and voice search optimization.",
+  title: "SEO Services | Rank Higher on Google",
+  description: "Our SEO services help Johannesburg businesses grow their Google rankings.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/seo",
   },

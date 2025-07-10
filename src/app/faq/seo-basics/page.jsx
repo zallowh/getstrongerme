@@ -3,9 +3,9 @@ import React from "react";
 import FAQAccordion from "@/components/faqSeo";
 
 export const metadata = {
-  title: "SEO Basics for Beginners – Improve Google Rankings | Strongerme",
+  title: "SEO Basics, Improve Google Rankings",
   description:
-    "Learn the fundamentals of SEO, how to rank higher on Google Maps, local SEO for service businesses, and the 2025 on-page SEO checklist. Debunk SEO myths and improve your organic traffic.",
+    "Learn the fundamentals of SEO, how to rank higher on Google Maps, local SEO.",
   alternates: {
     canonical: "https://www.getstrongerme.com/faq/seo-basics",
   },

@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Professional Email Hosting | Strongerme - Branded Email Setup",
-  description: "Professional email hosting for small businesses. Branded emails that improve trust and communication.",
+  title: "Professional Email Hosting",
+  description: "Professional email hosting for small businesses.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/hosting",
   },
@@ -47,11 +47,23 @@ const Hosting = () => {
         <li>Web, mobile, and desktop access</li>
         <li>Domain & hosting integration</li>
       </ul>
-      <p className="mt-6 text-blue-700 font-medium">
+      <p className="mt-6 text-blue-600 font-medium">
         A branded email shows professionalism and builds trust. Make a strong impression with every email you send.
       </p>
     </div>
   </div>
+
+   <div className="max-w-[700px] mx-auto bg-blue-50 border-l-4 border-blue-400 p-4 rounded-md m-8">
+  <p className="text-sm text-gray-800">
+     <sttong className="font-semibold">recommended</sttong> get done with basics of Professional already have{' '}
+    <a
+      href="/ourservice/profile"
+      className="text-blue-600 underline hover:text-blue-800 font-medium"
+    >
+      Google Business Profile?
+    </a>
+  </p>
+</div>
 </section>
 
     )

@@ -3,8 +3,32 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  title: "Strongerme RSA | Business Websites & Google Ads, SEO",
-  description: "Affordable websites, SEO, and hosting for small businesses in Johannesburg.",
+  title: "Strongerme RSA Digital Marketing Agency",
+  description:
+    "We help South African entrepreneurs grow online through SEO, web design, Google Ads and Google Business Profile.",
+  openGraph: {
+    type: "website",
+    url: "https://www.getstrongerme.com",
+    title: "Strongerme | SEO, Websites & Google Ads and Google Business Profile",
+    description:
+      "Affordable SEO, websites, Google Ads, and Google Business Profile in South Africa.",
+    siteName: "Strongerme",
+    images: [
+      {
+        url: "https://www.getstrongerme.com/logo.png", // Replace with your actual image URL
+        width: 512,
+        height: 512,
+        alt: "Strongerme Website Preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Strongerme | SEO, Websites & Google Ads and Google Business Profile",
+    description:
+      "SEO, web design, Google Ads and Google Business Profile.",
+    images: ["https://www.getstrongerme.com/logo.png"], // Use same as Open Graph
+  },
 };
 
 export default function RootLayout({ children }) {

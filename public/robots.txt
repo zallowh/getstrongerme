@@ -1,15 +1,9 @@
 # robots.txt for www.getstrongerme.com
 
 User-agent: *
-Disallow: /api/
-Disallow: /_next/
-Disallow: /server/
-Disallow: /private/
 Allow: /
 
 # Prevent indexing of Next.js build files and internal API routes
-Disallow: /_next/
-Disallow: /api/
 
 # Allow Googlebot full access to your main site pages
 User-agent: Googlebot
