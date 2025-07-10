@@ -113,6 +113,19 @@ const GoogleAds = () => {
       </ul>
     </section>
 
+    <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-md m-8">
+  <p className="text-sm text-gray-800">
+     Want a step-by-step guide on setting up and optimizing Google Ads campaigns?{' '}
+    <a
+      href="/faq/creating-googleads"
+      className="text-blue-600 underline hover:text-blue-800 font-medium"
+    >
+      Read our full Google Ads FAQ here.
+    </a>
+  </p>
+</div>
+
+
     <section className="mb-12">
       <h2 className="text-2xl font-semibold mb-4">Pricing Plans</h2>
       <div className="overflow-x-auto">

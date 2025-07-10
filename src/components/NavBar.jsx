@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -15,9 +15,47 @@ import {
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const pathname = usePathname();
 
   const isActive = (path) => pathname === path;
+
+  // Handle scroll behavior
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Show navbar when at top of page
+      if (currentScrollY < 10) {
+        setIsVisible(true);
+      }
+      // Hide on scroll down, show on scroll up
+      else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsVisible(false);
+        setIsOpen(false); // Close dropdown when hiding
+        setIsMobileMenuOpen(false); // Close mobile menu when hiding
+      } else if (currentScrollY < lastScrollY) {
+        setIsVisible(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    // Throttle scroll events for better performance
+    let timeoutId = null;
+    const throttledHandleScroll = () => {
+      if (timeoutId === null) {
+        timeoutId = setTimeout(() => {
+          handleScroll();
+          timeoutId = null;
+        }, 10);
+      }
+    };
+
+    window.addEventListener('scroll', throttledHandleScroll);
+    return () => window.removeEventListener('scroll', throttledHandleScroll);
+  }, [lastScrollY]);
 
   const serviceLinks = [
     { href: "/ourservice/seo", label: "Google SEO" },
@@ -31,13 +69,18 @@ export default function NavBar() {
     { href: "/", label: "Home" },
     { href: "/pricing", label: "Our Pricing" },
     { href: "/About", label: "About us" },
-    { href: "/contactus", label: "Contact us" }
+    { href: "/contactus", label: "Contact us" },
+    { href: "/blog", label: "Blog" }
   ];
 
   const isServiceActive = serviceLinks.some(service => isActive(service.href));
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header 
+      className={`bg-white shadow-md sticky top-0 z-50 transition-transform duration-300 ease-in-out ${
+        isVisible ? 'translate-y-0' : '-translate-y-full'
+      }`}
+    >
       <div className="">
         <h1 className="text-2xl font-bold text-blue-600 px-4">Strongerme RSA</h1>
         <p className="text-xsm font-bold text-gray-800 px-4">Popularity | Traffic | Conversions</p>
@@ -131,6 +174,18 @@ export default function NavBar() {
                 Contact us
               </Button>
             </Link>
+            <Link href="/blog">
+              <Button 
+                className={
+                  isActive("/blog") 
+                    ? "bg-blue-600 text-white hover:bg-blue-700" 
+                    : "bg-transparent text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+                }
+              >
+                blog
+              </Button>
+            </Link>
+
           </div>
 
           {/* Mobile Hamburger Menu - Only visible on mobile */}
