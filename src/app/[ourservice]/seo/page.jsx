@@ -35,7 +35,7 @@ const Seo = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="max-w-[700px] mx-auto font-semibold mt-10">
-      <h2 className="text-3xl font-bold mb-4">Organic SEO (3–12 Month Growth Plan)</h2>
+      <h1 className="text-3xl font-bold mb-4">Organic SEO (3–12 Month Growth Plan)</h1>
   <p className="mb-6 text-gray-700 leading-relaxed">
     Ranking on Google isn’t about tricks — it’s about strategy, consistency, and knowing how search engines and users behave.
     Our Organic SEO service is a tailored, long-term plan that builds real visibility, trust, and traffic over time.

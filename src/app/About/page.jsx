@@ -39,7 +39,7 @@ const AboutUs = () => {
 
         {/* Text */}
         <div className="md:w-1/2 md:pl-12">
-          <h3 className="text-3xl font-bold mb-4">Who We Are</h3>
+          <h1 className="text-3xl font-bold mb-4">Who We Are</h1>
           <p className="text-gray-700 mb-4 font-semibold">
             <strong>Strongerme</strong>, we’re passionate digital partners
             dedicated to helping Gauteng and Johannesburg start-ups thrive

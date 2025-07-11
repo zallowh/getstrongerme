@@ -42,7 +42,7 @@ const profiling = () => {
 
     {/* Content */}
     <div className="md:w-1/2 md:pl-10 font-semibold">
-      <h3 className="text-3xl font-bold mb-4">Google Business Profile/Map</h3>
+      <h1 className="text-3xl font-bold mb-4">Google Business Profile/Map</h1>
       <p className="mb-6 text-gray-700 leading-relaxed">
         Your business deserves to be found where customers are searching — on Google.
         We help you set up your official Google Business Profile and provide fast local hosting to make sure you're visible, trusted, and always online.

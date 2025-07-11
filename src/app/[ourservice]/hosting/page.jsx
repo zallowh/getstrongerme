@@ -36,7 +36,7 @@ const Hosting = () => {
 
     {/* Content */}
     <div className="md:w-1/2 md:pl-10">
-      <h3 className="text-3xl font-bold mb-4">Professional Email Hosting</h3>
+      <h1 className="text-3xl font-bold mb-4">Professional Email Hosting</h1>
       <p className="mb-6 text-gray-700 leading-relaxed font-semibold">
         An email address like yourname@gmail.com doesn’t reflect the professionalism of your brand.
         We set you up with reliable, custom business emails that help you look legit and win trust.

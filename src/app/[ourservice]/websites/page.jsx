@@ -33,7 +33,7 @@ const Websites = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="max-w-[700px] mx-auto font-semibold mt-10">
-        <h3 className="text-3xl font-bold mb-4">Website Design & Auditing</h3>
+        <h1 className="text-3xl font-bold mb-4">Website Design & Auditing</h1>
 
   <p className="mb-6 text-gray-700 leading-relaxed font-semibold">
     Think you're too local to need a website? Think again. In 2025, even neighborhood businesses are being Googled before they’re visited. Whether you run a salon in Soweto, a plumbing service in Durban, or a law firm in Cape Town — a clean, fast, mobile-ready website is no longer optional. It's where first impressions are made, trust is built, and leads are captured. A website lets you show up when people search for your service, explain what makes you different, and prove you're legit.

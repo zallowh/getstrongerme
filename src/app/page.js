@@ -57,7 +57,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black opacity-30" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-8">
-          <h2 className="text-5xl font-extrabold text-white">Get Your Business found</h2>
+          <h1 className="text-5xl font-extrabold text-white">Get Your Business found</h1>
           <p className="mt-4 text-3xl text-gray-900 font-bold">
             SEO and Google Ads , Website design, email hosting, and Google profile/map
           </p>
