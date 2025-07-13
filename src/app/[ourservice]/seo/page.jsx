@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "SEO Services | Rank Higher on Google",
-  description: "Our SEO services help Johannesburg businesses grow their Google rankings.",
+  title: "Google SEO & Maps Management Johannesburg | Local SEO Experts ",
+  description: "Google SEO and Maps services for Johannesburg businesses. Affordable local search optimization, audits, and campaign management | Rank Higher on Google .",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/seo",
   },
@@ -87,6 +87,35 @@ const Seo = () => {
 </div>
   
       </div>
+
+      {/* Hidden keyword index for Google SEO services */}
+<div className="hidden">
+  <ul>
+    {[
+      "affordable Google SEO and maps management services for small businesses Johannesburg",
+      "local Google SEO experts for startups in Johannesburg",
+      "Google search engine optimization campaign setup for Johannesburg SMEs",
+      "best Seo agency for Johannesburg small businesses",
+      "Google SEO management for Johannesburg retail stores",
+      "Google SEO audit and optimization services Johannesburg",
+      "Google SEO and maps remarketing services for Johannesburg startups",
+      "Google Ads and SEO package deals for Johannesburg businesses",
+      "certified Google SEO partner agency Johannesburg",
+      "Google Maps advertising services Johannesburg",
+      "Google SEO shopping campaigns for Johannesburg e-commerce",
+      "Google SEO management for Johannesburg service providers",
+      "SEO and Google Ads combo services in Johannesburg",
+      "Google SEO local search optimization Johannesburg",
+      "Google SEO performance max campaigns for Johannesburg startups",
+      "Google SEO consulting services Johannesburg",
+      "Google SEO and maps for Johannesburg real estate agencies",
+      "Google SEO expert for Johannesburg tech startups"
+    ].map((keyword, i) => (
+      <li key={i}>{keyword}</li>
+    ))}
+  </ul>
+</div>
+
 </section>
 
     )

@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Professional Email Hosting",
-  description: "Professional email hosting for small businesses.",
+  title: "Business Email Hosting with Custom Domain | Reliable & Secure",
+  description: "Affordable, secure email hosting for small businesses and freelancers. Custom domain setup",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/hosting",
   },
@@ -64,6 +64,32 @@ const Hosting = () => {
     </a>
   </p>
 </div>
+
+{/* Hidden keyword index for Email Hosting SEO */}
+<div className="hidden">
+  <ul>
+    {[
+      "affordable custom domain email hosting for small businesses",
+      "professional email hosting services with custom domain",
+      "secure email hosting for startups with own domain",
+      "cheap email hosting plans for business domains",
+      "email hosting with spam protection for professionals",
+      "reliable email hosting for entrepreneurs with custom domain",
+      "business email hosting with 24/7 support and custom domain",
+      "scalable email hosting solutions for small companies",
+      "email hosting with collaboration tools for startups",
+      "professional domain-based email hosting with easy setup",
+      "email hosting for freelancers with personalized domain",
+      "affordable email hosting with mobile access and custom domain",
+      "email hosting for local businesses with domain integration",
+      "email hosting with enhanced security for small business domains",
+      "email hosting services for remote teams with custom domain"
+    ].map((keyword, index) => (
+      <li key={index}>{keyword}</li>
+    ))}
+  </ul>
+</div>
+
 </section>
 
     )

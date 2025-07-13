@@ -10,6 +10,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Features from "@/components/features";
 import Link from "next/link";
 import { 
   Globe, 
@@ -120,6 +121,9 @@ const Pricing = () => {
           </Button>
         </Link>
       </div>
+
+      {/* ✅ features section */}
+      <Features />
 
       {/* ✅ Pricing Tiers */}
       <div className="text-center mb-10">

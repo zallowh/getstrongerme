@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Business Profile | Google Business & Maps",
-  description: "We create and optimize your Google Business Profile.",
+  title: "Google Business Profile Management Johannesburg | Maps & Local Listings",
+  description: "Google Business Profile setup and optimization for Johannesburg businesses. Maps listings.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/profile",
   },
@@ -58,7 +58,36 @@ const profiling = () => {
       </p>
     </div>
   </div>
-  
+        {/* Hidden keyword index for Google Business Profile (GBP) SEO */}
+<div className="hidden">
+  <ul>
+    {[
+      "affordable Google Business Profile setup and optimization Johannesburg",
+      "professional Google Business Profile management services Johannesburg",
+      "local SEO Google Business Profile optimization for Johannesburg SMEs",
+      "Google Maps listing optimization for small businesses Johannesburg",
+      "Google Business Profile review management services Johannesburg",
+      "Google Business Profile photo and video content management Johannesburg",
+      "monthly Google Business Profile updates and posts Johannesburg",
+      "Google Business Profile keyword optimization for Johannesburg startups",
+      "Google Maps marketing agency for Johannesburg local businesses",
+      "Google Business Profile competitor analysis and local SEO Johannesburg",
+      "Google Business Profile customer review monitoring Johannesburg",
+      "Google Business Profile service area targeting setup Johannesburg",
+      "Google Business Profile Q&A management services Johannesburg",
+      "Google Business Profile insights and performance reporting Johannesburg",
+      "Google Business Profile local search ranking improvement Johannesburg",
+      "Google Business Profile for Johannesburg restaurants and retail shops",
+      "Google Business Profile setup with map pin verification Johannesburg",
+      "Google Business Profile optimization for Johannesburg professional services",
+      "Google Business Profile local listing management for Johannesburg entrepreneurs",
+      "Google Business Profile posts and offers management Johannesburg"
+    ].map((keyword, i) => (
+      <li key={i}>{keyword}</li>
+    ))}
+  </ul>
+</div>
+
 </section>
     )
 }

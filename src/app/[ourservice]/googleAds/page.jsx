@@ -3,8 +3,9 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Google Ads Management.",
-  description: "Get instant visibility with Google Ads. Johannesburg-based businesses.",
+  title: "Google Ads Management Johannesburg | Affordable PPC Services",
+  description:
+    "Affordable Google Ads management for Johannesburg businesses. Campaign setup, remarketing, local PPC, video, shopping ads, and lead generation solutions.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/googleAds",
   },
@@ -172,6 +173,33 @@ const GoogleAds = () => {
       <h2 className="text-2xl font-bold m-8 text-center">Let’s Get Started with Google Ads</h2>
     </section>
   </div>
+</div>
+
+{/* Hidden keyword index for Google Ads SEO */}
+<div className="hidden">
+  <ul>
+    {[
+      "affordable Google Ads management services for small businesses Johannesburg",
+      "local Google ads experts for startups in Johannesburg",
+      "Google Ads campaign setup for Johannesburg SMEs",
+      "best Google Ads agency for Johannesburg small businesses",
+      "Google Ads PPC management for Johannesburg retail stores",
+      "Google ads audit and optimization services Johannesburg",
+      "Google Ads remarketing services for Johannesburg startups",
+      "Google Ads package deals for Johannesburg businesses",
+      "Google Ads video advertising services Johannesburg",
+      "Google Ads shopping campaigns for Johannesburg e-commerce",
+      "Google Ads management for Johannesburg service providers",
+      "Google Ads local search optimization Johannesburg",
+      "Google Ads performance max campaigns for Johannesburg startups",
+      "Google Ads for Johannesburg real estate agencies",
+      "Google Ads expert for Johannesburg tech startups",
+      "Google Ads campaign monitoring and reporting Johannesburg",
+      "Google Ads lead generation services for Johannesburg businesses"
+    ].map((keyword, i) => (
+      <li key={i}>{keyword}</li>
+    ))}
+  </ul>
 </div>
 
         </div>

@@ -1,5 +1,4 @@
-
-{/*import Features from "@/components/features";*/}
+import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -88,9 +87,6 @@ export default function Home() {
 </div>
 
       </section>
-
-      {/* Features */}
-      {/* <Features /> */}
     </div>
   );
 }
