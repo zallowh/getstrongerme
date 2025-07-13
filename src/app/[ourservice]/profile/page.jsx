@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Google Business Profile Management Johannesburg | Maps & Local Listings",
+  title: "Google Business Profile Management Johannesburg",
   description: "Google Business Profile setup and optimization for Johannesburg businesses. Maps listings.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/profile",

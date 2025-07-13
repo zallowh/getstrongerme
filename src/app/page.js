@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Strongerme Digital marketing agency | Affordable Business Websites in Johannesburg",
+  title: "Strongerme Digital marketing agency | Affordable in Johannesburg",
   description: "We build SEO-optimized, mobile-friendly websites for small businesses in Johannesburg. Boost your online visibility, traffic, and sales today.",
   alternates: {
     canonical: "https://www.getstrongerme.com",

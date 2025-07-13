@@ -76,9 +76,9 @@ const Features = () => {
     <div className="max-w-7xl mx-auto px-6 py-10">
       {/* Header Section */}
       <div className="text-center mb-10 mt-16">
-        <h1 className="text-4xl font-extrabold text-gray-800">
+        <h2 className="text-4xl font-extrabold text-gray-800">
           Our Features
-        </h1>
+        </h2>
         <p className="text-lg text-gray-700 font-bold mb-16">
           Everything you need to establish and grow your online presence
         </p>
