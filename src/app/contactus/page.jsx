@@ -49,10 +49,10 @@ export default function ContactPage() {
     </a>
 
     <a
-      href="mailto:zallowhmncube@gmail.com"
+      href="mailto:info@getstrongerme.com"
       className="inline-block bg-gray-800 hover:text-blue-600 text-white text-md font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300"
     >
-      Email Us: zallowhmncube@gmail.com
+      Email Us: info@getstrongerme.com
     </a>
   </div>
 </div>

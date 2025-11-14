@@ -39,7 +39,7 @@ const plans = [
       "1 revision",
     ],
     price: "R0.00/month",
-    setup: "R800 setup",
+    setup: "R1000 setup",
   },
   {
     tier: "Silver",
@@ -54,8 +54,8 @@ const plans = [
       "Minor bug fixes",
       "Security updates",
     ],
-    price: "R250/month",
-    setup: "R1000 setup",
+    price: "R500/month",
+    setup: "R1500 setup",
   },
   {
     tier: "Gold",
@@ -70,8 +70,8 @@ const plans = [
       "Email support",
       "Monthly uptime monitoring",
     ],
-    price: "R500/month",
-    setup: "R1250 setup",
+    price: "R1000/month",
+    setup: "R2000 setup",
   },
   {
     tier: "Platinum",
@@ -81,14 +81,14 @@ const plans = [
     bgColor: "bg-purple-50",
     features: [
       "Everything in Gold, plus:",
-      "Basic monthly SEO (on-page SEO)",
+      "Advanced SEO (off/on-page SEO)",
       "Google My Business optimization",
       "Monthly keyword tracking",
       "Content updates (blog/news if needed)",
       "Sitemap & SEO meta tags management",
     ],
-    price: "R750/month",
-    setup: "R1500 setup",
+    price: "R2000/month",
+    setup: "R3500 setup",
   },
 ];
 
