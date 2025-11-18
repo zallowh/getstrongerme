@@ -5,13 +5,13 @@ import Footer from "@/components/footer";
 export const metadata = {
   title: "Strongerme RSA Digital Marketing Agency",
   description:
-    "We help South African entrepreneurs grow online through SEO, web design, Google Ads and Google Business Profile.",
+    "We help South African entrepreneurs stay competitive online through SEO, web design, Google Ads and Google Business Profile.",
   openGraph: {
     type: "website",
     url: "https://www.getstrongerme.com",
     title: "Strongerme | SEO, Websites & Google Ads and Google Business Profile",
     description:
-      "Affordable SEO, websites, Google Ads, and Google Business Profile in South Africa.",
+      "Professional SEO, websites, Google Ads, and Google Business Profile in Johannesburg.",
     siteName: "Strongerme",
     images: [
       {

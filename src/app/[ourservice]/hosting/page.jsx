@@ -2,7 +2,7 @@ import React from "react";
 
 export const metadata = {
   title: "Business Email Hosting with Custom Domain | Reliable & Secure",
-  description: "Affordable, secure email hosting for small businesses and freelancers. Custom domain setup",
+  description: "Professional, secure email hosting for businesses and freelancers in Johannesburg. Custom domain setup",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/hosting",
   },
@@ -18,7 +18,7 @@ const Hosting = () => {
     "name": "GetStrongerMe"
   },
   "url": "https://www.getstrongerme.com/ourservice/hosting",
-  "description": "Affordable business email hosting for small teams in South Africa using your own domain."
+  "description": "Professional business email hosting for small teams in South Africa using your own domain."
 }
 
     return(
@@ -37,10 +37,10 @@ const Hosting = () => {
     {/* Content */}
     <div className="md:w-1/2 md:pl-10">
       <h1 className="text-3xl font-bold mb-4">Professional Email Hosting</h1>
-      <p className="mb-6 text-gray-700 leading-relaxed font-semibold">
+      <h2 className="mb-6 text-gray-700 leading-relaxed font-semibold">
         An email address like yourname@gmail.com doesn’t reflect the professionalism of your brand.
         We set you up with reliable, custom business emails that help you look legit and win trust.
-      </p>
+      </h2>
       <ul className="list-disc pl-6 text-gray-800 space-y-2 font-semibold">
         <li>Google or Microsoft (e.g. info@yourbusiness.co.za)</li>
         <li>Spam-free, secure mailboxes</li>
@@ -55,7 +55,7 @@ const Hosting = () => {
 
    <div className="max-w-[700px] mx-auto bg-blue-50 border-l-4 border-blue-400 p-4 rounded-md m-8">
   <p className="text-sm text-gray-800">
-     <sttong className="font-semibold">recommended</sttong> get done with basics of Professional already have{' '}
+     <strong className="font-semibold">recommended</strong> get done with basics of Professional already have{' '}
     <a
       href="/ourservice/profile"
       className="text-blue-600 underline hover:text-blue-800 font-medium"

@@ -3,7 +3,7 @@ import ContactForm from "@/components/contactForm";
 
 export const metadata = {
   title: "Contact Us | Speak to a Digital Expert",
-  description: "Get in touch for web design, SEO, and Google Ads services. Serving all businesses.",
+  description: "Get in touch for web design, SEO, and Google Ads services. Serving all businesses in South Africa.",
   alternates: {
     canonical: "https://www.getstrongerme.com/contactus",
   },
@@ -18,12 +18,12 @@ export default function ContactPage() {
   "url": "https://www.getstrongerme.com/contactus",
   "mainEntity": {
     "@type": "Organization",
-    "name": "GetStrongerMe",
+    "name": "Strongerme",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+27663973313",
       "contactType": "Customer Support",
-      "areaServed": "ZA",
+      "areaServed": "Gauteng",
       "availableLanguage": "en"
     }
   }

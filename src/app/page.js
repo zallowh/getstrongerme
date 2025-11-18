@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Strongerme | Performance & ROI-focused Digital marketing agency in Johannesburg",
+  title: "Strongerme | Performance & ROI-focused Digital marketing agency in South Africa",
   description: "We optimize & amplify your business’s presence on Google, making you the preferred choice in your industry.",
   alternates: {
     canonical: "https://www.getstrongerme.com",
@@ -57,12 +57,12 @@ export default function Home() {
 </section>
 
   <div className="mt-12 text-center px-6 md:px-20">
-  <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+  <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
     How Do Customers Find You on Google When They Don’t Know Your Name?
-  </h2>
-  <p className="text-xl md:text-2xl text-gray-700 font-medium max-w-4xl mx-auto">
+  </h1>
+  <h2 className="text-xl md:text-2xl text-gray-700 font-medium max-w-4xl mx-auto">
     At <span className="text-blue-700 font-semibold">Strongerme</span>, we optimize & amplify your business’s presence on Google, making you the top preferred choice in your industry.
-  </p>
+  </h2>
 </div>
 
 
@@ -79,11 +79,11 @@ export default function Home() {
 
     {/* Text */}
 <div className="md:w-1/2 md:pl-12">
-  <h1 className="text-3xl font-bold mb-4">90 Days Fast-Track to Visibility</h1>
-  <p className="text-gray-700 mb-4 font-semibold">
+  <h3 className="text-3xl font-bold mb-4">90 Days Fast-Track to Visibility</h3>
+  <h4 className="text-gray-700 mb-4 font-semibold">
     Experience our high-performance growth program that has delivered measurable ROI and sustained growth in
     <strong> Popularity, Traffic,</strong> and <strong>Conversions</strong>—in just <strong>90 days</strong> of proven results.
-  </p>
+  </h4>
   <ul className="text-gray-700 mb-4">
     <strong>Data from real campaigns shows where the clicks truly go:</strong>
     <li>#1 Organic Rank: 23.3% CTR</li>

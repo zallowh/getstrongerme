@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Google Ads Management Johannesburg | Affordable PPC Services",
+  title: "Google Ads Management South Africa | Affordable PPC Services",
   description:
     "Affordable Google Ads management for Johannesburg businesses. Campaign setup, remarketing, local PPC, video, shopping ads, and lead generation solutions.",
   alternates: {
@@ -22,10 +22,10 @@ const GoogleAds = () => {
   },
   "areaServed": {
     "@type": "Place",
-    "name": "Johannesburg"
+    "name": "Gauteng"
   },
   "url": "https://www.getstrongerme.com/ourservice/googleAds",
-  "description": "We manage Google Ads for small businesses — setup, content writing, optimization, and performance tracking."
+  "description": "We manage Google Ads for businesses — setup, content writing, optimization, and performance tracking."
 }
 
     return(

@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "Website Design & Landing Page Audit Johannesburg",
+  title: "Website Design & Landing Page Audit in South Africa",
   description:
-    "Affordable, SEO-friendly, mobile-optimized websites for startups and small businesses in Johannesburg and Gauteng. AI-ready, fast-loading, and lead-focused.",
+    "Professional, SEO-friendly, mobile-optimized websites for all businesses in Johannesburg. AI-ready, fast-loading, and lead-focused.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/websites",
   },
@@ -20,10 +20,10 @@ const Websites = () => {
     },
     "areaServed": {
       "@type": "Place",
-      "name": "Johannesburg"
+      "name": "Gauteng"
     },
     "url": "https://www.getstrongerme.com/ourservice/websites",
-    "description": "We build modern, mobile-first websites for small businesses with SEO and Google Ads integration."
+    "description": "We build modern, mobile-first websites for all businesses with SEO and Google Ads integration."
   };
 
   const keywordGroups = {
@@ -81,9 +81,9 @@ const Websites = () => {
           Think you're too local to need a website? Think again. In 2025, even neighborhood businesses are being Googled before they’re visited. Whether you run a salon in Soweto, a plumbing service in Durban, or a law firm in Cape Town — a clean, fast, mobile-ready website is no longer optional. It's where first impressions are made, trust is built, and leads are captured. A website lets you show up when people search for your service, explain what makes you different, and prove you're legit.
         </p>
 
-        <p className="mb-6 text-gray-700 leading-relaxed font-semibold">
+        <h2 className="mb-6 text-gray-700 leading-relaxed font-semibold">
           At StrongerMe, we design sites that do more than look good — they rank, load fast, and help you grow. We pair modern design with SEO and performance audits to make sure your site actually drives business.
-        </p>
+        </h2>
       </div>
 
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
@@ -94,9 +94,9 @@ const Websites = () => {
             alt="Website Design & Auditing"
             className="rounded-xl shadow-lg"
           />
-          <p className="mt-6 text-blue-800 font-medium">
+          <h3 className="mt-6 text-blue-800 font-medium">
             Don’t just have a website — have a strategic digital asset that works 24/7 to build trust, attract visitors, and convert leads. Fast. Functional. Found online.
-          </p>
+          </h3>
         </div>
 
         {/* Content Side */}

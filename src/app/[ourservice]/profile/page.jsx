@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Google Business Profile Management Johannesburg",
-  description: "Google Business Profile setup and optimization for Johannesburg businesses. Maps listings.",
+  title: "Google Business Profile Management in South Africa",
+  description: "Google Business Profile setup and optimization for businesses in Johannesburg. Maps listings.",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/profile",
   },
@@ -43,10 +43,10 @@ const profiling = () => {
     {/* Content */}
     <div className="md:w-1/2 md:pl-10 font-semibold">
       <h1 className="text-3xl font-bold mb-4">Google Business Profile/Map</h1>
-      <p className="mb-6 text-gray-700 leading-relaxed">
+      <h2 className="mb-6 text-gray-700 leading-relaxed">
         Your business deserves to be found where customers are searching — on Google.
         We help you set up your official Google Business Profile and provide fast local hosting to make sure you're visible, trusted, and always online.
-      </p>
+      </h2>
       <ul className="list-disc pl-6 text-gray-800 space-y-2">
         <li>Google Business Profile setup (Google Maps visibility)</li>
         <li>Business contact info, address, hours, and service details</li>

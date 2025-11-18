@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Google SEO & Maps Management Johannesburg | Local SEO Experts ",
-  description: "Google SEO and Maps services for Johannesburg businesses. Affordable local search optimization, audits, and campaign management | Rank Higher on Google .",
+  title: "Google SEO & Maps Management in South Africa | Local SEO Experts ",
+  description: "Google SEO and Maps services for businesses in Johannesburg. local search optimization, audits | Rank Higher on Google .",
   alternates: {
     canonical: "https://www.getstrongerme.com/ourservice/seo",
   },
@@ -21,10 +21,10 @@ const Seo = () => {
   },
   "areaServed": {
     "@type": "Place",
-    "name": "Johannesburg"
+    "name": "Gauteng"
   },
   "url": "https://www.getstrongerme.com/ourservice/seo",
-  "description": "Improve your business's visibility with on-page SEO, local Johannesburg targeting, and Google ranking improvements."
+  "description": "Improve your business's visibility with on-page SEO, local targeting, and Google ranking improvements."
 }
 
     return(
@@ -36,11 +36,11 @@ const Seo = () => {
       />
       <div className="max-w-[700px] mx-auto font-semibold mt-10">
       <h1 className="text-3xl font-bold mb-4">Organic SEO (3–12 Month Growth Plan)</h1>
-  <p className="mb-6 text-gray-700 leading-relaxed">
+  <h2 className="mb-6 text-gray-700 leading-relaxed">
     Ranking on Google isn’t about tricks — it’s about strategy, consistency, and knowing how search engines and users behave.
     Our Organic SEO service is a tailored, long-term plan that builds real visibility, trust, and traffic over time.
     Whether you’re a small business or scaling startup, we help you dominate search results for keywords that matter to your customers.
-  </p>
+  </h2>
 </div>
   <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
     {/* Image */}
